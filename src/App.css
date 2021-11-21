@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0b18;
+    font-family: 'Poppins', sans-serif;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.Login {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ h1 {
+    color: #fff;
+}
+
+.Login input {
+    margin: 5px 0;
+    background: #fff;
+    height: 40px;
+    width: 280px;
+    border-radius: 18px;
+    border: 2px solid #0d0b18;
+    outline: none;
+    padding: 0 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.Login button {
+    margin: 5px 0;
+    width: 300px;
+    border-radius: 18px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #68628b;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: transform .3s ;
+}
+
+.Login button:hover {
+    transform: scaleX(1.01);
+}
+
+.List {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.List h2 {
+    color: #fff;
+}
+
+.List input{
+    background-color: #fff;
+    text-align: left;
+    width: 240px;
+    outline: none;
+    border: none;
+}
+
+.List button {
+    width: 50px;
+    background-color: #68628b;
+    color: #fff;
+    border: none;
+}
+
+p {
+    background-color: #fff;
+}
