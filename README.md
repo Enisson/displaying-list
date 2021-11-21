@@ -1,6 +1,6 @@
 <div align=center>
   <h1>displaying-list</h1>
-  <p>Projetinho utilizando a biblioteca Reactjs<p>
+  <h2>Projetinho simples apenas para fixar o uso do hook useState da biblioteca Reactjs</h2>
   <p>Ao digitar o login e senha corretamente exibe uma lista ao qual se pode adicionar textos</p>
 
   ![as](https://user-images.githubusercontent.com/70671093/142775746-f1208ffc-57c0-4229-99a8-605bbfd32604.jpg)
